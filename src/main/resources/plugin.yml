@@ -1,0 +1,16 @@
+name: InventorySortPlugin
+version: 1.0
+main: inventorysortplugin.inventorysortplugin.InventorySortPlugin
+api-version: 1.17
+
+commands:
+  msort:
+    permission: msort.user
+
+permissions:
+  msort:
+    children:
+      user:
+
+      op:
+        default: op
